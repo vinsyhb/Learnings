@@ -16,6 +16,7 @@ git checkout . // Discard all the changes which were checked out
 
 git remote add origin <online-repo-url> //this will sync the local repo to the remote repo after this you can use git push command to push the changes to the online repo
 
+git remote set-url origin <online-repo-url> // to change the origin url already set  
 git push -u origin master
 git pull <online-git-repo-url>
 .gitignore file is used to ignore the files from committing from the git commands
