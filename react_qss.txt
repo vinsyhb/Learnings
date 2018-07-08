@@ -1,0 +1,32 @@
+Life cycle of components
+
+For creation-
+	constructor
+	componentWillMount
+	render
+	componentDidMount
+	
+For update-
+	componentWillReceiveProps
+	shouldComponentUpdate
+	componentWillUpdate
+	render
+	componentDidUpdate
+For unmounting
+	componentWIllUnmount
+
+Apis in the component
+	setState()
+	forceUpdate()
+Class properties
+	defaultProps
+	displayName
+Instance properties
+	props
+	state
+
+Event handling in reactjs
+	using camelCase for the event names
+	passing function definition instead of string
+
+Stateless components in React

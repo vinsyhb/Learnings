@@ -1,0 +1,67 @@
+media queries
+@media(min-width:35px){
+	/*css */
+}
+Bootstrap uses 5 screen sizes
+Extra small
+Small
+Medium
+Large
+Extra large
+
+css flex??
+
+bootstrap container
+<div class="container"></div>// fixed width
+<div class="container-fluid">
+	<div class="row">// each row is divided into 12 columns
+		<div class="col-sm">
+col-
+col-sm
+col-md
+col-lg
+col-xl
+
+order-sm-first
+order-sm-last
+
+
+align-items-center //this is on row
+
+column offseting
+offset-sm-1
+
+------------------
+jumbotron
+offset-sm-1 // this will shift the column by 1 position out of 12
+
+list-unstyled
+align-items-center
+justify-content-center // align the column to center horizontally
+align-self-center // for a column vertically
+
+tnone and dsm
+---------------------------------------------------------------------------
+Navigation bar
+
+
+---------------------------
+###Buttons###
+btn-group
+btn
+btn-primary
+btn-info
+btn-success
+
+Using "tel:90008964694" in href the device can directly call if possible
+"mailto:vinayhb@gmail.com" 
+
+mt-5 //margin top 5px
+ml-5 //marin left
+-------------------------------
+Font awesome css
+it can be used with i tag or span tag
+
+fa fa-phone
+fa fa-skype
+fa fa-envelope-o

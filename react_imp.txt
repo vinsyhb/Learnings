@@ -1,0 +1,48 @@
+#React 16.3
+
+---React terminologies imp---
+	One way data flow
+	props
+	state
+	component
+	JSX
+	Virtual DOM
+	Element
+	Flux/Redux
+-------------------------------------
+
+yarn is like a npm package manager
+
+npm install -g create-react-app@1.5.2 //command to install the react through the CLI
+create-react-app Application1
+
+JSX - javascript extensions
+
+#state should always be defined in the constructor
+#to update the state use setState method
+#to specify event use camelCase
+
+#Life cycle of react component
+	#Mounting
+	#Updating
+	#Unmounting
+componentWillMount is deprecated from 16.3
+getDerivedStateFromProps is replacement
+
+	order -creation
+		constructor
+		getDerivedStateFromProps
+		render
+		componentDidMount
+	
+	order -updation
+		shouldComponentUpdate
+		render
+		getSnapshotBeforeUpdate
+		componentDidUpdate
+	
+
+
+	
+	
+Immutable javascript

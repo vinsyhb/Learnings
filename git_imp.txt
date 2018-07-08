@@ -1,0 +1,23 @@
+Git commands
+git --
+git config --global user.name "vinsyhb"
+git config --global user.email "kavi211312@gmail.com"
+git init // initializes the repository
+git status // shows the status of the repo 
+git add . // adds all the files to the staging area of git repo
+git reset . // to unstage the files which are staged using git add.
+git commit //
+git commit -m "message"// -m for message
+git log --oneline // gives the log of all the commits
+
+git checkout <commitid> . //checkout the file from an older commit and it will automatically stage it
+git reset HEAD . // Unstage the changes which are staged from checkout
+git checkout . // Discard all the changes which were checked out
+
+git remote add origin <online-repo-url> //this will sync the local repo to the remote repo after this you can use git push command to push the changes to the online repo
+
+git push -u origin master
+git pull <online-git-repo-url>
+.gitignore file is used to ignore the files from committing from the git commands
+
+
